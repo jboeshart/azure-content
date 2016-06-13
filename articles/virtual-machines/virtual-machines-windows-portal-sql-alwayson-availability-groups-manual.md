@@ -19,8 +19,8 @@
 # Configure Always On availability group in Azure VM manually - Resource Manager
 
 > [AZURE.SELECTOR]
-- [Resource Manager: Auto](virtual-machines-windows-portal-sql-alwayson-availability-groups.md)
-- [Resource Manager: Manual](virtual-machines-windows-portal-sql-alwayson-availability-groups-manual.md)
+- [Resource Manager: Portal](virtual-machines-windows-portal-sql-alwayson-availability-groups.md)
+- [Resource Manager: UI](virtual-machines-windows-portal-sql-alwayson-availability-groups-manual.md)
 - [Classic: UI](virtual-machines-windows-classic-portal-sql-alwayson-availability-groups.md)
 - [Classic: PowerShell](virtual-machines-windows-classic-ps-sql-alwayson-availability-groups.md)
 
@@ -125,9 +125,9 @@ The table below shows the settings for the virtual network.
 
 Note that your address space and subnet address range may be different from the table. Depending on your subscription Azure will automatically specify an available address space and corresponding subnet address range. If no sufficient address space is available use a different subscription. 
 
-Click **Create** 
+Click **Create**
 
-    ![Configure Virtual Network](./media/virtual-machines-windows-portal-sql-alwayson-availability-groups-manual/06-configurevirtualnetwork.png)
+   ![Configure Virtual Network](./media/virtual-machines-windows-portal-sql-alwayson-availability-groups-manual/06-configurevirtualnetwork.png)
 
 Azure will return you to the portal dashboard and notify you when the new network is created.
 
@@ -147,15 +147,15 @@ At this point your virtual network contains one subnet, named Subnet-1. The doma
 
     Notice the subnet that you already created. 
 
-    ![Configure Virtual Network](./media/virtual-machines-windows-portal-sql-alwayson-availability-groups-manual/07-addsubnet.png)
+   ![Configure Virtual Network](./media/virtual-machines-windows-portal-sql-alwayson-availability-groups-manual/07-addsubnet.png)
 
 1. Create a second subnet. Click **+ Subnet**. 
 
  In the **Add Subnet** blade configure the subnet by typing **subnet-2** under **Name**. Azure will automatically specify a valid **Address range**. Verify that this address range has at least 10 addresses in it. In a production environment you may require more addresses. 
 
 Click **OK**. 
-
-    ![Configure Virtual Network](./media/virtual-machines-windows-portal-sql-alwayson-availability-groups-manual/08-configuresubnet.png)
+ 
+ ![Configure Virtual Network](./media/virtual-machines-windows-portal-sql-alwayson-availability-groups-manual/08-configuresubnet.png)
    
 Here is a summary of the configuration settings for the virtual network and both subnets.
 
