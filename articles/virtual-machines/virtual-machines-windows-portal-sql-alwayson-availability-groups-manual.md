@@ -279,7 +279,7 @@ In the following steps, configure the **ad-primary-dc** machine as a domain cont
 
 | **Page** |Setting|
 |---|---|
-|** Deployment Configuration** |**Add a new forest** = Selected<br/>**Root domain name** = corp.contoso.com|
+|**Deployment Configuration** |**Add a new forest** = Selected<br/>**Root domain name** = corp.contoso.com|
 |**Domain Controller Options**|**DSRM Password** = Contoso!000<br/>**Confirm Password** = Contoso!000|
 
 1. Click **Next** to go through the other pages in the wizard. On the **Prerequisites Check** page, verify that you see the following message: **All prerequisite checks passed successfully**. Note that you should review any applicable warning messages, but it is possible to continue with the install.
