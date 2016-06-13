@@ -209,7 +209,7 @@ You will go through that process twice to create two virtual machines. Name the 
 - ad-primary-dc
 - ad-secondary-dc
 
- [AZURE.NOTE] **ad-secondary-dc** is an optional component to provide high availability for Active Directory domain services. 
+>[AZURE.NOTE] **ad-secondary-dc** is an optional component to provide high availability for Active Directory domain services. 
 
 The following table shows the settings for these two machines.
 
